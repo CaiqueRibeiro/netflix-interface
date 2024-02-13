@@ -3,12 +3,11 @@ import Header from './components/Header'
 
 export default function Home() {
   return (
-    <div className="relative h-screen overflow-hidden bg-green-3 bg-gradient-to-t from-black from-15% lg:from-45% lg:h-[140vh]">
+    <div className="relative h-screen overflow-hidden bg-gradient-to-t from-black from-15% lg:from-45% lg:h-[140vh]">
       <Header />
       <main className="relative pb-24 pl-4 lg:pl-16">
         <div className="flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[65vh] lg:justify-end lg:pb-12">
           <div className="absolute left-0 top-0 -z-10 flex h-[95vh] w-screen flex-col bg-black">
-            
             <Image
               src="/banner5.jpg"
               alt="The Witcher"

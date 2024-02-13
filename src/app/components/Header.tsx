@@ -18,7 +18,10 @@ export default function Header() {
           <li>Latest</li>
         </ul>
       </div>
-    </header>
 
+      <div>
+        <button>Tests</button>
+      </div>
+    </header>
   )
 }
